@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/Music">
+        <file>Elevatormusic.mp3</file>
+    </qresource>
+    <qresource prefix="/Img">
+        <file>back.png</file>
+        <file>GIF.gif</file>
+        <file>Rocket.gif</file>
+        <file>save.png</file>
+        <file>settings.png</file>
+        <file>Space..jpg</file>
+        <file>GIF2.gif</file>
+        <file>diagonal.png</file>
+        <file>diagonal_right.png</file>
+        <file>gif_diagonal_left.gif</file>
+        <file>gif_diagonal_right.gif</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>window_rules</class>
+ <widget class="QDialog" name="window_rules">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>646</width>
+    <height>414</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>140</y>
+     <width>561</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Fixedsys&quot;;
+color: rgb(211, 211, 211);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Backbutton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+QPushButton{
+       border-radius: 15px;
+		border-right: 1px solid #aaaaaa;
+		border-bottom: 1px solid #aaaaaa;
+		image: url(:/Img/back.png);
+
+}
+
+QPushButton:enabled {
+		
+		
+		background-color: rgb(0, 33, 61);
+		color: rgb(170, 0, 0);
+		color: white;
+}
+
+QPushButton:pressed {
+		
+		background-color: white;
+		image: url(:/Img/back.png);
+		color: #ffffff;
+}
+
+
+QPushButton:hover:!pressed {
+		background-color: #696c9d;
+
+		color: #0c2f70;
+}
+
+QPushButton:disabled {
+		background-color: #ffffff;
+
+		color: #ffffff;
+}
+
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>90</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 36pt &quot;Fixedsys&quot;;
+color: rgb(211, 211, 211);
+
+</string>
+   </property>
+   <property name="text">
+    <string> RULES</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-1</y>
+     <width>651</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Img/Space..jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label1">
+   <property name="geometry">
+    <rect>
+     <x>198</x>
+     <y>24</y>
+     <width>301</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 36pt &quot;Siemens AD Sans&quot;;
+color: rgb(211, 211, 211);</string>
+   </property>
+   <property name="text">
+    <string>TIC TAC TOE</string>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>label</zorder>
+  <zorder>Backbutton</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label1</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
