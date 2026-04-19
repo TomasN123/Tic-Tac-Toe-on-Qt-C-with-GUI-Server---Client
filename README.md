@@ -49,7 +49,7 @@ implementation of the classic **Tic-Tac-Toe** game featuring a graphical user in
 
 **Server Connection** Setting up the connection by entering the Server IP and Port.
 <p align="left">
-  <img src="images/connection.png" width="600">
+  <img src="images/connection.png" height="600">
 </p>
 
 ---
