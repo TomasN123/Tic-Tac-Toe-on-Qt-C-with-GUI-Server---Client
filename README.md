@@ -38,8 +38,30 @@ implementation of the classic **Tic-Tac-Toe** game featuring a graphical user in
 5. **Gameplay:** Take turns clicking on the 3x3 grid until a winner is declared or the game ends in a draw
 
 ---
+## 📸 Screenshots
 
+**Main Menu** The starting point where the player chooses their initial action.
+<p align="left">
+  <img src="images/menu.png" width="600">
+</p>
+
+---
+
+**Server Connection** Setting up the connection by entering the Server IP and Port.
+<p align="left">
+  <img src="images/connection.png" width="600">
+</p>
+
+---
+
+**Gameplay in Progress** Real-time interaction between two players across separate client windows.
+<p align="left">
+  <img src="images/game.png" width="800">
+</p>
+
+---
 ## 📊 Sequence Diagram
+---
 
 ```mermaid
 sequenceDiagram
